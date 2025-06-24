@@ -439,4 +439,29 @@ a {
 	margin-top: -5rem;
 	width: 100%;
 }
+
+/* End */
+/* serving section */
+/* Start */
+.serving_box_parent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.serving_box_parent img {
+	margin-left: -9rem;
+	margin-top: -4rem;
+}
+
+.serving_text_box h1 {
+	font-size: 55px;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.serving_text_box p {
+	font-size: 22px;
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+}
 /* End */
