@@ -241,3 +241,16 @@ a {
 	height: auto;
 	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.273)) drop-shadow(0 0 20px rgba(0, 0, 0, 0.339));
 }
+
+/* End */
+/* logos */
+.logos {
+	background-color: #f4fbfa;
+	padding-block: 3.5rem;
+}
+
+.logos div {
+	display: flex;
+	justify-content: space-between;
+}
+/* End */
