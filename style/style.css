@@ -252,5 +252,82 @@ a {
 .logos div {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+	height: 50px;
 }
+
+.logos img {
+	width: 130px;
+	height: 50px;
+}
+
 /* End */
+/* A complete section */
+/* Start */
+.crad_box {
+	display: flex;
+	gap: 2rem;
+}
+
+.card {
+	margin-top: 5rem;
+	width: 220px;
+	padding: 20px;
+	background: white;
+	border-radius: 16px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+	transition: transform 0.3s ease;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.icon-box {
+	width: 50px;
+	height: 50px;
+	background: #ff6f61;
+	box-shadow: 0px 0px 15px #ff6f61;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	margin: 0 auto 16px;
+}
+
+.icon-box i {
+	color: white;
+	font-size: 24px;
+}
+
+.card h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+}
+
+.card p {
+	margin-top: 10px;
+	color: #555;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.icon-box1 {
+	width: 50px;
+	height: 50px;
+	background: #60e4ba;
+	box-shadow: 0px 0px 15px #2dd59c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	margin: 0 auto 16px;
+}
+
+.icon-box1 i {
+	color: white;
+	font-size: 24px;
+}
