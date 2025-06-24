@@ -279,6 +279,7 @@
 		margin-left: 1rem;
 	}
 
+
 	.a_complete button {
 		margin-top: 2rem;
 		padding: 14px 22px;
@@ -424,4 +425,164 @@
 		margin-right: 1rem;
 		width: 100%;
 	}
+
+	/* get our section */
+	/* End */
+	/* best pricing section */
+	/* Start */
+	.best_pricing_parent {
+		text-align: center;
+		margin-top: 4rem;
+	}
+
+	.best_pricing_parent h1 {
+		font-size: 40px;
+		letter-spacing: 2px;
+		font-weight: 600;
+		margin-bottom: 2rem;
+	}
+
+	.best_pricing_parent p {
+		font-size: 16px;
+		width: 100%;
+		margin-left: 1px;
+		line-height: 1.6;
+		margin-bottom: 2rem;
+	}
+
+	.pricing {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		padding: 40px;
+		background: #f9f9f9;
+		flex-wrap: wrap;
+	}
+
+	.plan {
+		background: #fff;
+		border-radius: 12px;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+		padding: 30px;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+
+	.plan:hover {
+		transform: scale(1.03);
+	}
+
+	.plan h3 {
+		font-size: 20px;
+		color: #888;
+		margin-bottom: 1rem;
+
+	}
+
+	.plan h2 {
+		font-size: 32px;
+		margin: 10px 0;
+		color: #111;
+	}
+
+	.plan ul {
+		list-style: none;
+		padding: 0;
+		margin: 20px 0;
+	}
+
+	.plan ul li {
+		font-size: 16px;
+		margin: 12px 0;
+		color: #333;
+		margin-bottom: 3rem;
+		color: #2dd59c;
+	}
+
+	.plan ul .not {
+		color: #bbb;
+		text-decoration: line-through;
+		color: red;
+	}
+
+	.plan .pricing_button1 {
+		background-color: #ff5e5e;
+		color: white;
+		border: none;
+		padding: 12px 24px;
+		border-radius: 8px;
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.plan .pricing_button1:hover {
+		background-color: #e24545;
+
+	}
+
+	.pricing_button {
+		background-color: #fff;
+		color: #e24545;
+		padding: 12px 24px;
+		border-radius: 8px;
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.pricing_button:hover {
+		transform: translateY(-4px);
+		backdrop-filter: blur(30px);
+		border-top-right-radius: 19px;
+		border-bottom-left-radius: 14px;
+	}
+
+	.pricing_button:active {
+		transform: translateY(4px);
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.pricing_button1:hover {
+		transform: translateY(-4px);
+		backdrop-filter: blur(30px);
+		border-top-right-radius: 19px;
+		border-bottom-left-radius: 14px;
+	}
+
+	.pricing_button1:active {
+		transform: translateY(4px);
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	/* End */
+	/* footer */
+	/* Start */
+
+	footer {
+		display: flex;
+		justify-content: center;
+		background-color: #e7f6f3;
+		padding: 3rem 6rem;
+		font-size: 16px;
+		margin-top: 5rem;
+		flex-direction: column;
+	}
+
+	footer img {
+		margin-top: -6rem;
+	}
+
+	.footer_text {
+		gap: 1rem;
+		display: flex;
+		justify-content: center;
+		line-height: 1.5;
+		margin-right: 5rem;
+		flex-direction: row;
+		gap: 4rem;
+		margin-left: 3rem;
+	}
+
 }
