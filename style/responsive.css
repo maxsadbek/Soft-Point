@@ -1,0 +1,123 @@
+@media(max-width:600px) {
+
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+
+	.navbar ul {
+		display: none;
+	}
+
+	.navbar i {
+		display: block;
+		font-size: 30px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.logo {
+		align-items: center;
+		margin-left: -7px;
+		align-items: center;
+		margin-bottom: -30px;
+	}
+
+	.navbar_login_box button {
+		display: none;
+
+	}
+
+	.navbar_menu {
+		list-style: none;
+		display: flex;
+		gap: 20px;
+	}
+
+	.hero {
+		width: 100%;
+		padding: 50px 5%;
+		box-sizing: border-box;
+	}
+
+	.hero-content {
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+
+	.hero-text {
+		flex: 1 1 500px;
+		max-width: 600px;
+		margin-left: 3rem;
+		margin-top: 1rem;
+	}
+
+	.hero-text h1 {
+		font-size: 28px;
+		font-weight: bold;
+		margin-top: -200px;
+	}
+
+	.hero-text h1 span {
+		color: #2dd59c;
+	}
+
+	.hero-text p {
+		margin: 20px 0;
+		font-size: 16px;
+		color: #444;
+		margin-bottom: 1rem;
+	}
+
+	.email-box {
+		display: flex;
+		margin-top: 20px;
+	}
+
+	.email-box form input {
+		flex: 1;
+		padding: 15px;
+		border: 1px solid #333;
+		border-radius: 8px;
+		font-size: 16px;
+		outline: none;
+	}
+
+	.email-box button {
+		padding: 15px 25px;
+		background-color: #f14a4a;
+		border: none;
+		color: white;
+		border-radius: 8px 8px 8px 8px;
+		font-size: 16px;
+		cursor: pointer;
+		margin-top: 10px;
+		width: 85%;
+	}
+
+	.store-links img {
+		height: 30px;
+		margin-right: 10px;
+		margin-top: 20px;
+	}
+
+	.hero-img {
+		flex: 1 1 400px;
+		text-align: center;
+	}
+
+	.hero-img img {
+		max-width: 100%;
+		margin-top: -4rem;
+		height: auto;
+		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.273)) drop-shadow(0 0 20px rgba(0, 0, 0, 0.339));
+	}
+
+}

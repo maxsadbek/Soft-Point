@@ -44,6 +44,10 @@ body {
 	transition: color 0.3s ease;
 }
 
+.navbar i {
+	display: none;
+}
+
 /* nav effect */
 .navbar a::after {
 	content: "";
