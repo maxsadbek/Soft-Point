@@ -401,3 +401,42 @@ a {
 	color: #f14a4a;
 	font-weight: 700;
 }
+
+/* End */
+/* discover section */
+/* Start */
+.discover_box_parent {
+	display: flex;
+	margin-top: 8rem;
+}
+
+.discover_box_parent h1 {
+	font-size: 45px;
+	letter-spacing: 2.4px;
+	line-height: 1.4;
+	margin-bottom: 1rem;
+}
+
+.discover_box_parent p {
+	font-size: 18.6px;
+	line-height: 1.4;
+	margin-bottom: 1rem;
+}
+
+.check_box {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	line-height: 3;
+}
+
+.check_box h4 {
+	margin-bottom: -17px;
+	font-weight: 500;
+}
+
+.discover_box_parent .Discover_img {
+	margin-top: -5rem;
+	width: 100%;
+}
+/* End */
