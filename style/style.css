@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	transition: all 1s ease;
+
+}
+
+body {
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.navbar ul {
+	display: flex;
+	gap: 3rem;
+	list-style: none;
+	text-decoration: none;
+}
+
+.navbar ul li a {
+	color: gray;
+	text-transform: capitalize;
+	position: relative;
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	padding-bottom: 5px;
+	transition: color 0.3s ease;
+}
+
+/* nav effect */
+.navbar a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 0;
+	background-color: rgb(0, 0, 0);
+	transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	align-items: center;
+	margin-left: -70px;
+	align-items: center;
+	margin-bottom: -30px;
+}
+
+.navbar_login_box button {
+	background-color: #f44544;
+	border: 1px solid #f44544;
+	color: #fff;
+	padding: 16px 25px;
+	border-radius: 6px;
+	text-transform: capitalize;
+	transition: all 0.4s;
+
+}
+
+.navbar_login_box button:hover {
+	transform: translateY(-4px);
+	box-shadow: 0px 0px 30px #f44444ad;
+	backdrop-filter: blur(30px);
+	border-top-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+
+.navbar_login_box button:active {
+	transform: translateY(4px);
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.navbar_login_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+
+}
+
+.navbar_menu {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.navbar_menu li {
+	position: relative;
+}
+
+.download_hover a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/* Yashirincha button */
+.download_button_box {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: 6px;
+	padding: 5px 20px;
+}
+
+/* Hover bo‘lsa button chiqadi */
+.download_hover:hover .download_button_box {
+	display: block;
+	margin-left: 14px;
+}
+
+/* Button stili */
+.download_btn {
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+	background-color: greenyellow;
+	padding: 10px 22px;
+}
+
+.download_btn:hover {
+	border-top-right-radius: 19px;
+	border-bottom-left-radius: 14px;
+	box-shadow: 0px 0px 20px greenyellow;
+	backdrop-filter: blur(10px);
+	transform: translateY(-4px);
+}
+
+.download_btn:active {
+	transform: translateY(4px);
+	border-top-right-radius: 19px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0px 0px 30px greenyellow;
+}
+
+.hero {
+	width: 100%;
+	padding: 50px 5%;
+	box-sizing: border-box;
+}
+
+.hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.hero-text {
+	flex: 1 1 500px;
+	max-width: 600px;
+	margin-left: 3rem;
+	margin-top: -10rem;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hero-text h1 span {
+	color: #2dd59c;
+}
+
+.hero-text p {
+	margin: 20px 0;
+	font-size: 22px;
+	color: #444;
+	margin-bottom: 1rem;
+}
+
+.email-box {
+	display: flex;
+	margin-top: 20px;
+}
+
+.email-box form input {
+	flex: 1;
+	padding: 15px;
+	border: none;
+	border-radius: 8px 0 0 8px;
+	font-size: 16px;
+	outline: none;
+}
+
+.email-box button {
+	padding: 15px 25px;
+	background-color: #f14a4a;
+	border: none;
+	color: white;
+	border-radius: 0 8px 8px 0;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.store-links img {
+	height: 30px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.hero-img {
+	flex: 1 1 400px;
+	text-align: center;
+}
+
+.hero-img img {
+	max-width: 100%;
+	margin-top: -4rem;
+	height: auto;
+	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.273)) drop-shadow(0 0 20px rgba(0, 0, 0, 0.339));
+}
