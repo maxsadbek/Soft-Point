@@ -120,48 +120,6 @@ a {
 	font-size: 12px;
 }
 
-/* Yashirincha button */
-.download_button_box {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	margin-top: 6px;
-	padding: 5px 20px;
-}
-
-/* Hover bo‘lsa button chiqadi */
-.download_hover:hover .download_button_box {
-	display: block;
-	margin-left: 14px;
-}
-
-/* Button stili */
-.download_btn {
-	color: #fff;
-	border: none;
-	border-radius: 6px;
-	cursor: pointer;
-	transition: 0.3s;
-	background-color: greenyellow;
-	padding: 10px 22px;
-}
-
-.download_btn:hover {
-	border-top-right-radius: 19px;
-	border-bottom-left-radius: 14px;
-	box-shadow: 0px 0px 20px greenyellow;
-	backdrop-filter: blur(10px);
-	transform: translateY(-4px);
-}
-
-.download_btn:active {
-	transform: translateY(4px);
-	border-top-right-radius: 19px;
-	border-bottom-left-radius: 10px;
-	box-shadow: 0px 0px 30px greenyellow;
-}
-
 .hero {
 	width: 100%;
 	padding: 50px 5%;
@@ -397,6 +355,20 @@ a {
 	margin-right: 1rem;
 }
 
+.a_complete button:hover {
+	transform: translateY(-4px);
+	box-shadow: 0px 0px 30px #111;
+	backdrop-filter: blur(30px);
+	border-top-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+
+.a_complete button:active {
+	transform: translateY(4px);
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
 .a_complete a {
 	color: #f14a4a;
 	font-weight: 700;
@@ -464,4 +436,43 @@ a {
 	line-height: 1.6;
 	margin-bottom: 1.5rem;
 }
+
+/* End */
+/* get our section */
+/* Strat */
+.get_our_parent {
+	background-color: #e8f6f4;
+}
+
+.get_our_parent .get_our_div {
+	display: flex;
+	padding-block: 5rem;
+	justify-content: space-between;
+}
+
+.get_our_div div h1 {
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.get_our_div div p {
+	font-size: 18px;
+	margin-bottom: 2rem;
+	line-height: 1.5;
+}
+
+.get_our_div div button {
+	padding: 16px 28px;
+	background-color: #f14a4a;
+	border: 1px solid #f14a4a;
+	border-radius: 6px;
+	color: #fff;
+}
+
+.get_our_parent img {
+	margin-top: -12rem;
+	margin-right: -6rem;
+}
+/* get our section */
 /* End */
