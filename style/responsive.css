@@ -62,8 +62,9 @@
 	.hero-text h1 {
 		font-size: 28px;
 		font-weight: bold;
-		margin-top: -200px;
+		margin-top: -180px;
 		margin-bottom: 1.5rem;
+		margin-left: -2rem;
 	}
 
 	.hero-text h1 span {
@@ -75,6 +76,7 @@
 		font-size: 16px;
 		color: #444;
 		margin-bottom: 1.5rem;
+		margin-left: -2rem;
 	}
 
 	.email-box {
@@ -90,6 +92,7 @@
 		border-radius: 8px;
 		font-size: 16px;
 		outline: none;
+		margin-left: -2rem;
 	}
 
 	.email-box button {
@@ -101,7 +104,8 @@
 		font-size: 16px;
 		cursor: pointer;
 		margin-top: 10px;
-		width: 85%;
+		width: 92%;
+		margin-left: -2rem;
 	}
 
 	.store-links img {
@@ -302,5 +306,122 @@
 	.a_complete a {
 		color: #f14a4a;
 		font-weight: 700;
+	}
+
+	/* End */
+	/* discover section */
+	/* Start */
+
+	.discover_box_parent {
+		display: flex;
+		margin-top: 8rem;
+		flex-direction: column-reverse;
+	}
+
+	.discover_box_parent h1 {
+		font-size: 30px;
+		letter-spacing: 2.4px;
+		line-height: 1.4;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+
+	.discover_box_parent p {
+		font-size: 18.6px;
+		line-height: 1.4;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+
+	.check_box {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+		line-height: 3;
+		margin-left: 1rem;
+	}
+
+	.check_box h4 {
+		margin-bottom: -17px;
+		font-weight: 500;
+		margin-left: 1rem;
+	}
+
+	.discover_box_parent .Discover_img {
+		margin-top: -5rem;
+		width: 100%;
+	}
+
+	/* End */
+	/* serving section */
+	/* Start */
+
+	.serving_box_parent {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.serving_box_parent img {
+		margin-left: 1rem;
+		margin-top: 1rem;
+		width: 100%;
+	}
+
+	.serving_text_box h1 {
+		font-size: 25px;
+		font-weight: 600;
+		margin-bottom: 2rem;
+		margin-left: 1rem;
+	}
+
+	.serving_text_box p {
+		font-size: 16px;
+		line-height: 1.6;
+		margin-bottom: 1.5rem;
+		margin-left: 1rem;
+	}
+
+	/* End */
+	/* get our section */
+	/* Strat */
+
+	.get_our_parent {
+		background-color: #e8f6f4;
+	}
+
+	.get_our_parent .get_our_div {
+		display: flex;
+		padding-block: 5rem;
+		flex-direction: column;
+	}
+
+	.get_our_div div h1 {
+		font-size: 30px;
+		font-weight: 600;
+		margin-bottom: 2rem;
+		margin-left: 1rem;
+	}
+
+	.get_our_div div p {
+		font-size: 16px;
+		margin-bottom: 2rem;
+		line-height: 1.5;
+		margin-left: 1rem;
+	}
+
+	.get_our_div div button {
+		padding: 16px 28px;
+		background-color: #f14a4a;
+		border: 1px solid #f14a4a;
+		border-radius: 6px;
+		color: #fff;
+		margin-left: 1rem;
+	}
+
+	.get_our_parent img {
+		margin-top: 1rem;
+		margin-right: 1rem;
+		width: 100%;
 	}
 }
