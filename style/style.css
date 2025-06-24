@@ -5,7 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Inter", sans-serif;
-	transition: all 1s ease;
+	transition: all 0.4s ease;
 
 }
 
@@ -264,6 +264,13 @@ a {
 /* End */
 /* A complete section */
 /* Start */
+.card_section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 6rem;
+}
+
 .crad_box {
 	display: flex;
 	gap: 2rem;
@@ -327,7 +334,70 @@ a {
 	margin: 0 auto 16px;
 }
 
+.icon-box3 {
+	width: 50px;
+	height: 50px;
+	background: #fbcb4b;
+	box-shadow: 0px 0px 15px #fbcb4b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	margin: 0 auto 16px;
+}
+
+.icon-box4 {
+	width: 50px;
+	height: 50px;
+	background: #f46fe6;
+	box-shadow: 0px 0px 15px #f46fe6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	margin: 0 auto 16px;
+}
+
 .icon-box1 i {
 	color: white;
 	font-size: 24px;
+}
+
+.icon-box3 i {
+	color: white;
+	font-size: 24px;
+}
+
+.icon-box4 i {
+	color: white;
+	font-size: 24px;
+}
+
+.a_complete h1 {
+	font-size: 40px;
+	font-weight: 600;
+	width: 70%;
+	letter-spacing: 2px;
+	line-height: 48px;
+}
+
+.a_complete p {
+	font-size: 19px;
+	margin-top: 1.5rem;
+	width: 70%;
+	line-height: 1.6;
+}
+
+.a_complete button {
+	margin-top: 2rem;
+	padding: 14px 22px;
+	border-radius: 6px;
+	background-color: #111;
+	color: #fff;
+	margin-right: 1rem;
+}
+
+.a_complete a {
+	color: #f14a4a;
+	font-weight: 700;
 }
