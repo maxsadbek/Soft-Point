@@ -87,7 +87,7 @@
 	.email-box form input {
 		flex: 1;
 		padding: 20px;
-		padding-right: 40px;
+		padding-right: 0px;
 		border: 1px solid #333;
 		border-radius: 8px;
 		font-size: 16px;
@@ -96,7 +96,7 @@
 	}
 
 	.email-box button {
-		padding: 15px 25px;
+		padding: 15px 22px;
 		background-color: #f14a4a;
 		border: none;
 		color: white;
